@@ -1,9 +1,11 @@
 {
   "name": "is-chanon",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
   },
   "repository": {
     "type": "git",
@@ -16,6 +18,8 @@
     "string"
   ],
   "devDependencies": {
+    "docz": "^1.0.3",
+    "docz-theme-default": "^1.0.3",
     "jest": "^24.7.1"
   }
 }
