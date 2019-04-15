@@ -14,11 +14,23 @@ yarn add is-chanon
 ```
 
 Use the package as needed
-```
+```js
 const isChanon = require('is-chanon')
 
 isChanon('Chanon');     // true
 isChanon('chanon');     // true
 isChanon('John');       // false
 isChanon('channon');    // false
+```
+
+## Testing
+
+Install dependencies
+```
+yarn
+```
+
+Run the Jest tests
+```
+yarn test
 ```

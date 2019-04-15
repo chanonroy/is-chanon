@@ -11,6 +11,10 @@
   },
   "author": "Chanon Roy",
   "license": "MIT",
+  "keywords": [
+    "chanon",
+    "string"
+  ],
   "devDependencies": {
     "jest": "^24.7.1"
   }
