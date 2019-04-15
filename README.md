@@ -1,8 +1,10 @@
-# is-chanon &middot; [![npm version](https://badge.fury.io/js/is-chanon.svg)](https://badge.fury.io/js/is-chanon)
+# is-chanon &middot; ![npm](https://img.shields.io/npm/v/is-chanon.svg)
 
 A simple stateless function to determine whether a string contains my name (`Chanon`) or not. 
 
 This is more of a parody module to help me test out best practices with CI/CD, npm publishing, and semantic versioning.
+
+
 
 ## Usage
 
