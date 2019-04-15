@@ -1,4 +1,4 @@
-# is-chanon &middot; ![npm](https://img.shields.io/npm/v/is-chanon.svg)
+# is-chanon &middot; ![NPM](https://img.shields.io/npm/l/is-chanon.svg) ![npm](https://img.shields.io/npm/v/is-chanon.svg)
 
 A simple stateless function to determine whether a string contains my name (`Chanon`) or not. 
 
