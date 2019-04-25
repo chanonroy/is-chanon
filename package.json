@@ -20,6 +20,7 @@
   "devDependencies": {
     "docz": "^1.0.3",
     "docz-theme-default": "^1.0.3",
-    "jest": "^24.7.1"
+    "jest": "^24.7.1",
+    "semantic-release": "^15.13.3"
   }
 }
