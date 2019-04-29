@@ -16,6 +16,10 @@ test('is FALSE with other string', () => {
   expect(isChanon('john')).toBe(false);
 });
 
+test('is Charles equal Channon', () => {
+  expect(isChanon('Charles')).toBe(false);
+});
+
 test('is FALSE with number', () => {
   expect(isChanon(123)).toBe(false);
 });
