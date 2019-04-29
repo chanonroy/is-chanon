@@ -19,7 +19,7 @@ const isChanon = require('is-chanon')
 
 isChanon('Chanon');     // true
 isChanon('chanon');     // true
-isChanon('John');       // false
+isChanon('Charles');    // false
 isChanon('channon');    // false
 ```
 
