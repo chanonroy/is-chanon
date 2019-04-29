@@ -12,9 +12,20 @@ jobs:
     steps:
       - checkout
 
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ .Branch }}-{{ checksum "package.json" }}
+            - v1-dependencies-{{ .Branch }}
+            - v1-dependencies
+
       - run: yarn install
 
       - run: yarn test
+
+      - save_cache:
+          paths:
+            - ~/.cache
+          key: v1-dependencies-{{ .Branch }}-{{ checksum "package.json" }}
 
       - persist_to_workspace:
           root: ~/
@@ -27,6 +38,12 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/
+
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ .Branch }}-{{ checksum "package.json" }}
+            - v1-dependencies-{{ .Branch }}
+            - v1-dependencies
 
       - run: yarn semantic-release
 
