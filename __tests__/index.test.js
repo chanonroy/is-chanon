@@ -16,7 +16,7 @@ test('is FALSE with other string', () => {
   expect(isChanon('john')).toBe(false);
 });
 
-test('is Charles equal Channon', () => {
+test('is Charles equal to Channon', () => {
   expect(isChanon('Charles')).toBe(false);
 });
 
