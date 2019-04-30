@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/chanonroy/is-chanon/compare/v1.1.1...v1.1.2) (2019-04-30)
+
+
+### Bug Fixes
+
+* **package:** fix package json version ([#8](https://github.com/chanonroy/is-chanon/issues/8)) ([8dfbb9e](https://github.com/chanonroy/is-chanon/commit/8dfbb9e))
+
 ## [1.1.1](https://github.com/chanonroy/is-chanon/compare/v1.1.0...v1.1.1) (2019-04-29)
 
 
