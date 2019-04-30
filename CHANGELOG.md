@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/chanonroy/is-chanon/compare/v1.1.2...v1.2.0) (2019-04-30)
+
+
+### Features
+
+* **typescript:** add typescript support ([#9](https://github.com/chanonroy/is-chanon/issues/9)) ([15cd7c1](https://github.com/chanonroy/is-chanon/commit/15cd7c1))
+
 ## [1.1.2](https://github.com/chanonroy/is-chanon/compare/v1.1.1...v1.1.2) (2019-04-30)
 
 
