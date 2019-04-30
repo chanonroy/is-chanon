@@ -3,6 +3,8 @@
   "version": "0.0.0-development",
   "main": "index.js",
   "scripts": {
+    "build": "yarn run tslint && tsc",
+    "tslint": "tslint --project tsconfig.json --config tslint.json",
     "test": "jest",
     "docz:dev": "docz dev",
     "docz:build": "docz build"
@@ -22,10 +24,14 @@
     "@semantic-release/git": "^7.0.8",
     "@semantic-release/github": "^5.2.10",
     "@semantic-release/release-notes-generator": "^7.1.4",
+    "@types/jest": "^24.0.12",
     "docz": "^1.0.3",
     "docz-theme-default": "^1.0.3",
     "jest": "^24.7.1",
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^15.13.3",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
   },
   "release": {
     "plugins": [

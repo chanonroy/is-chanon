@@ -22,6 +22,8 @@ jobs:
 
       - run: yarn test
 
+      - run: yarn build
+
       - save_cache:
           paths:
             - ~/.cache
