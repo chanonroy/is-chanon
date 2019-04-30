@@ -1,6 +1,6 @@
 {
   "name": "is-chanon",
-  "version": "0.0.0-development",
+  "version": "1.2.2",
   "main": "dist/index.js",
   "scripts": {
     "build": "yarn run tslint && tsc",
