@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/chanonroy/is-chanon/compare/v1.1.0...v1.1.1) (2019-04-29)
+
+
+### Bug Fixes
+
+* **whitespace:** fix whitespace ([#7](https://github.com/chanonroy/is-chanon/issues/7)) ([b79849f](https://github.com/chanonroy/is-chanon/commit/b79849f))
+
 # [1.1.0](https://github.com/chanonroy/is-chanon/compare/v1.0.0...v1.1.0) (2019-04-29)
 
 
