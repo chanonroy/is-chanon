@@ -1,7 +1,20 @@
-// For a detailed explanation regarding each configuration property, visit:
-// https://jestjs.io/docs/en/configuration.html
-
 module.exports = {
-  testEnvironment: "node",
-  testRegex: "((\\.|/)(test))\\.js?$"
+  preset: 'ts-jest',
+  globals: {
+    "ts-jest": {
+      tsConfig: "./tsconfig.json"
+    }
+  },
+  transform: {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  testRegex: "((\\.|/)(test))\\.ts?$",
+  moduleFileExtensions: [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json",
+    "node"
+  ],
 };
