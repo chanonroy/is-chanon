@@ -1,7 +1,7 @@
 {
   "name": "is-chanon",
   "version": "0.0.0-development",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "yarn run tslint && tsc",
     "tslint": "tslint --project tsconfig.json --config tslint.json",
@@ -23,6 +23,7 @@
     "@semantic-release/changelog": "^3.0.2",
     "@semantic-release/git": "^7.0.8",
     "@semantic-release/github": "^5.2.10",
+    "@semantic-release/npm": "^5.1.4",
     "@semantic-release/release-notes-generator": "^7.1.4",
     "@types/jest": "^24.0.12",
     "docz": "^1.0.3",
@@ -43,7 +44,12 @@
           "changelogFile": "CHANGELOG.md"
         }
       ],
-      "@semantic-release/git",
+      [
+        "@semantic-release/git",
+        {
+          "assets": ["package.json"]
+        }
+      ],
       "@semantic-release/github"
     ]
   }
