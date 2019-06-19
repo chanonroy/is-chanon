@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/chanonroy/is-chanon/compare/v1.2.3...v2.0.0) (2019-06-19)
+
+
+* BREAKING CHANGE: Testing breaking change on semantic (#13) ([4fc6141](https://github.com/chanonroy/is-chanon/commit/4fc6141)), closes [#13](https://github.com/chanonroy/is-chanon/issues/13)
+
+
+### BREAKING CHANGES
+
+* testing breaking change
+
 ## [1.2.3](https://github.com/chanonroy/is-chanon/compare/v1.2.2...v1.2.3) (2019-04-30)
 
 
