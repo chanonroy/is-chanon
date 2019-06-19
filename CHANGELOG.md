@@ -1,3 +1,17 @@
+## [1.2.3](https://github.com/chanonroy/is-chanon/compare/v1.2.2...v1.2.3) (2019-04-30)
+
+
+### Bug Fixes
+
+* **doc:** add shield links to doc ([#12](https://github.com/chanonroy/is-chanon/issues/12)) ([4f56ee6](https://github.com/chanonroy/is-chanon/commit/4f56ee6))
+
+## [1.2.2](https://github.com/chanonroy/is-chanon/compare/v1.2.1...v1.2.2) (2019-04-30)
+
+
+### Bug Fixes
+
+* **npm:** add npm publish script ([#11](https://github.com/chanonroy/is-chanon/issues/11)) ([9829da1](https://github.com/chanonroy/is-chanon/commit/9829da1))
+
 # [1.2.0](https://github.com/chanonroy/is-chanon/compare/v1.1.2...v1.2.0) (2019-04-30)
 
 
