@@ -37,3 +37,7 @@ Run the Jest tests
 ```
 yarn test
 ```
+
+## Contributing
+
+Feel free to open up a PR and contribute to this great npm package.
