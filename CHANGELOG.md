@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/chanonroy/is-chanon/compare/v2.0.0...v2.0.1) (2020-04-09)
+
+
+### Bug Fixes
+
+* **jsdocs:** add jsdocs to main func ([49215d9](https://github.com/chanonroy/is-chanon/commit/49215d9))
+
 # [2.0.0](https://github.com/chanonroy/is-chanon/compare/v1.2.3...v2.0.0) (2019-06-19)
 
 
