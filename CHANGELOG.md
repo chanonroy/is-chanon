@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/chanonroy/is-chanon/compare/v2.0.1...v2.0.2) (2020-08-31)
+
+
+### Bug Fixes
+
+* add test for shannon scenario ([#22](https://github.com/chanonroy/is-chanon/issues/22)) ([ed01400](https://github.com/chanonroy/is-chanon/commit/ed01400))
+
 ## [2.0.1](https://github.com/chanonroy/is-chanon/compare/v2.0.0...v2.0.1) (2020-04-09)
 
 
