@@ -1,3 +1,22 @@
+# [2.1.0](https://github.com/chanonroy/is-chanon/compare/v2.0.2...v2.1.0) (2020-08-31)
+
+
+### Bug Fixes
+
+* another go ([81ebf6d](https://github.com/chanonroy/is-chanon/commit/81ebf6d))
+* build actions ([26a93e8](https://github.com/chanonroy/is-chanon/commit/26a93e8))
+* bump semantic release ([0f632d0](https://github.com/chanonroy/is-chanon/commit/0f632d0))
+* fix github token ([d1b4a8f](https://github.com/chanonroy/is-chanon/commit/d1b4a8f))
+* try access token ([fef8946](https://github.com/chanonroy/is-chanon/commit/fef8946))
+* try other github token ([a4a37c6](https://github.com/chanonroy/is-chanon/commit/a4a37c6))
+* try removing circle ([f7d2567](https://github.com/chanonroy/is-chanon/commit/f7d2567))
+* whitespace on yaml ([46381da](https://github.com/chanonroy/is-chanon/commit/46381da))
+
+
+### Features
+
+* test github actions ([#25](https://github.com/chanonroy/is-chanon/issues/25)) ([6f6d98b](https://github.com/chanonroy/is-chanon/commit/6f6d98b))
+
 ## [2.0.2](https://github.com/chanonroy/is-chanon/compare/v2.0.1...v2.0.2) (2020-08-31)
 
 
