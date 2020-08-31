@@ -1,4 +1,5 @@
 import isChanon from "./index";
+import isHussein from "./index";
 
 test('is TRUE with "Chanon"', () => {
   expect(isChanon("Chanon")).toBe(true);
@@ -13,15 +14,15 @@ test('is TRUE with other spacing and "chanon"', () => {
 });
 
 test('is TRUE with "Hussein"', () => {
-  expect(isChanon("Hussein")).toBe(true);
+  expect(isHussein("Hussein")).toBe(true);
 });
 
 test('is TRUE with lowercase "chanon"', () => {
-  expect(isChanon("hussein")).toBe(true);
+  expect(isHussein("hussein")).toBe(true);
 });
 
 test('is TRUE with other spacing and "chanon"', () => {
-  expect(isChanon(" hussein ")).toBe(true);
+  expect(isHussein(" hussein ")).toBe(true);
 });
 
 test("is FALSE with other string", () => {
