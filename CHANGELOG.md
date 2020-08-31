@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/chanonroy/is-chanon/compare/v2.1.0...v2.1.1) (2020-08-31)
+
+
+### Bug Fixes
+
+* try to resolve branch protection issues ([#26](https://github.com/chanonroy/is-chanon/issues/26)) ([b72e147](https://github.com/chanonroy/is-chanon/commit/b72e147))
+
 # [2.1.0](https://github.com/chanonroy/is-chanon/compare/v2.0.2...v2.1.0) (2020-08-31)
 
 
