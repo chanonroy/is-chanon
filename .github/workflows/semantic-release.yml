@@ -10,30 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-
+      - uses: actions/checkout@master
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-
-      - name: Get yarn cache
-        id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - uses: actions/cache@v1
-        with:
-          path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-
-      - run: yarn install --frozen-lockfile
-
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@v2
+      - run: yarn install
+      - run: yarn test
+      - run: yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
