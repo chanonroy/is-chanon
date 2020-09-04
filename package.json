@@ -15,6 +15,11 @@
   },
   "author": "Chanon Roy",
   "license": "MIT",
+  "files":  [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
   "keywords": [
     "chanon",
     "string"
