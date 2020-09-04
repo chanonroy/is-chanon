@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/chanonroy/is-chanon/compare/v2.1.2...v2.2.0) (2020-09-04)
+
+
+### Features
+
+* husky linting ([#27](https://github.com/chanonroy/is-chanon/issues/27)) ([539c37a](https://github.com/chanonroy/is-chanon/commit/539c37a))
+
 ## [2.1.2](https://github.com/chanonroy/is-chanon/compare/v2.1.1...v2.1.2) (2020-09-04)
 
 
