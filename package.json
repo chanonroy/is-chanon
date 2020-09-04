@@ -3,8 +3,8 @@
   "version": "2.1.2",
   "main": "dist/index.js",
   "scripts": {
-    "build": "yarn run tslint && tsc",
-    "tslint": "tslint --project tsconfig.json --config tslint.json",
+    "build": "yarn run lint && tsc",
+    "lint": "eslint --ignore-path .gitignore . --ext ts",
     "test": "jest",
     "docz:dev": "docz dev",
     "docz:build": "docz build"
@@ -20,15 +20,23 @@
     "string"
   ],
   "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "@types/jest": "^24.0.12",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
     "docz": "^1.0.3",
     "docz-theme-default": "^1.0.3",
+    "eslint": "^7.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
     "jest": "^24.7.1",
+    "prettier": "^2.1.1",
     "semantic-release": "^17.1.1",
     "ts-jest": "^24.0.2",
-    "tslint": "^5.16.0",
     "typescript": "^3.4.5"
   },
   "release": {
@@ -39,5 +47,16 @@
       "@semantic-release/git",
       "@semantic-release/github"
     ]
-  }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "dependencies": {}
 }
