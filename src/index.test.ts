@@ -24,11 +24,10 @@ test('is Shannon equal to Chanon', () => {
   expect(isChanon('Shannon')).toBe(false)
 })
 
-
 test('is FALSE with number', () => {
   expect(isChanon(123 as any)).toBe(false)
 })
 
-test("is Chanon equal to Hussein", () => {
-  expect(isChanon("Hussein")).toBe(false);
-});
+test('is Chanon equal to Hussein', () => {
+  expect(isChanon('Hussein')).toBe(false)
+})
