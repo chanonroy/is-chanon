@@ -24,7 +24,7 @@ test("is Shannon equal to Chanon", () => {
   expect(isChanon("Shannon")).toBe(false);
 });
 
-test("is Shannon equal to Chanon", () => {
+test("is Chanon equal to Hussein", () => {
   expect(isChanon("Hussein")).toBe(false);
 });
 
