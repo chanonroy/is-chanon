@@ -1,3 +1,11 @@
+## [2.2.1](https://github.com/chanonroy/is-chanon/compare/v2.2.0...v2.2.1) (2020-09-04)
+
+
+### Bug Fixes
+
+* add build step to CI ([b517b30](https://github.com/chanonroy/is-chanon/commit/b517b30))
+* linting ([8469f99](https://github.com/chanonroy/is-chanon/commit/8469f99))
+
 # [2.2.0](https://github.com/chanonroy/is-chanon/compare/v2.1.2...v2.2.0) (2020-09-04)
 
 
