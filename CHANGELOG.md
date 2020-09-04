@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/chanonroy/is-chanon/compare/v2.1.1...v2.1.2) (2020-09-04)
+
+
+### Bug Fixes
+
+* hussein edge-case coverage ([#24](https://github.com/chanonroy/is-chanon/issues/24)) ([6165bc8](https://github.com/chanonroy/is-chanon/commit/6165bc8))
+
 ## [2.1.1](https://github.com/chanonroy/is-chanon/compare/v2.1.0...v2.1.1) (2020-08-31)
 
 
