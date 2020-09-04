@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/chanonroy/is-chanon/compare/v2.2.1...v2.2.2) (2020-09-04)
+
+
+### Bug Fixes
+
+* add files to package json ([ea65c95](https://github.com/chanonroy/is-chanon/commit/ea65c95))
+
 ## [2.2.1](https://github.com/chanonroy/is-chanon/compare/v2.2.0...v2.2.1) (2020-09-04)
 
 

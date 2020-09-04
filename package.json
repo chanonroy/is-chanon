@@ -1,6 +1,6 @@
 {
   "name": "is-chanon",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "main": "dist/index.js",
   "scripts": {
     "build": "yarn run lint && tsc",
@@ -15,7 +15,7 @@
   },
   "author": "Chanon Roy",
   "license": "MIT",
-  "files":  [
+  "files": [
     "dist",
     "README.md",
     "package.json"
