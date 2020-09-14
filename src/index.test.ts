@@ -31,3 +31,9 @@ test('is FALSE with number', () => {
 test('is Chanon equal to Hussein', () => {
   expect(isChanon('Hussein')).toBe(false)
 })
+
+describe('thai chanon spelling' , () => {
+  it('Chanon is equal to its thai spelling ชานน', () => {
+    expect(isChanon('ชานน')).toBe(true)
+  })
+})
