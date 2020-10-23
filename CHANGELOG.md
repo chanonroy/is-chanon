@@ -1,3 +1,10 @@
+## [2.2.3](https://github.com/chanonroy/is-chanon/compare/v2.2.2...v2.2.3) (2020-09-04)
+
+
+### Bug Fixes
+
+* build before ci ([52ff680](https://github.com/chanonroy/is-chanon/commit/52ff680))
+
 ## [2.2.2](https://github.com/chanonroy/is-chanon/compare/v2.2.1...v2.2.2) (2020-09-04)
 
 
