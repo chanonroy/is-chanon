@@ -1,3 +1,10 @@
+## [2.2.4](https://github.com/chanonroy/is-chanon/compare/v2.2.3...v2.2.4) (2020-10-23)
+
+
+### Bug Fixes
+
+* bump packages ([#32](https://github.com/chanonroy/is-chanon/issues/32)) ([2153eff](https://github.com/chanonroy/is-chanon/commit/2153eff))
+
 ## [2.2.3](https://github.com/chanonroy/is-chanon/compare/v2.2.2...v2.2.3) (2020-09-04)
 
 
