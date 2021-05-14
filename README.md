@@ -25,6 +25,7 @@ isChanon("Chanon"); // true
 isChanon("chanon"); // true
 isChanon("Charles"); // false
 isChanon("channon"); // false
+isChanon("matthew"); // false
 ```
 
 ## Testing
