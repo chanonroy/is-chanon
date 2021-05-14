@@ -31,3 +31,7 @@ test('is FALSE with number', () => {
 test('is Chanon equal to Hussein', () => {
   expect(isChanon('Hussein')).toBe(false)
 })
+
+test('is Chanon equal to matthew', () => {
+  expect(isChanon('matthew')).toBe(false)
+})
